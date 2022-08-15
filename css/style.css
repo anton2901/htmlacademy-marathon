@@ -23,11 +23,12 @@ font-size: 16px;
 box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body {
 margin: 0;
 padding: 0;
 font-weight: normal;
 font-family: "Montserrat", "Arial", sans-serif;
+background-color: #EFE6E4;
 }
 
 ol, ul {
@@ -37,4 +38,273 @@ list-style: none;
 img {
 max-width: 100%;
 height: auto;
+}
+/* 1.Header*/
+
+.header-main {
+    width: 1400px;
+    height: 715px;
+    background-color: #C8BEB2;
+    background: url(../pic/header-bg.png) no-repeat;
+    background-size: 1400px;
+    color: #533738;
+    
+}
+/* 1.1 Menu */
+
+.header-menu {
+    display: flex;
+    padding-left: 98px;
+    padding-top: 36px;
+
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+    margin-left: 89px;
+
+}
+
+.header-nav li a {
+    display:block;
+    margin:0;
+    padding-right: 26px;
+    text-decoration: none;
+    color: #533738;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.phone a {
+    margin-left: 34px;
+    text-decoration: none;
+    color: #533738;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/* 1.2 Header content */
+
+.header-content {
+margin-top: 91px;
+margin-left: 182px;
+width: 536px;
+height: 395px;
+color: #533738;
+}
+
+.header-tittle{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62px;
+}
+
+.header-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-btn {
+    display: block;
+    background-color: #CC8B86;
+    width: 309px;
+    text-align: center;
+}
+
+.header-btn a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 74px;
+    text-decoration: none;
+    color: #533738;
+}
+
+/* 2. Main */
+/* 2.1 About */
+
+.about {
+    margin-top: 65px;
+    color: #533738;
+}
+
+.about-tittle {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-aside {
+    display: flex;
+    width: 1400px;
+    height: 273px;
+    background-color: #8D7370;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* 2.2 Cases*/
+
+.cases {
+    margin-top: 65px;
+    color: #533738;
+}
+
+.cases-tittle {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.cases-block {
+    width: 488px;
+    height: 451px;
+    background-image: url(../pic/cases-block-bg.png);
+    background-size: 488px 451px;
+}
+
+.cases-block-tittle {
+    width: 272px;
+    padding-top: 86px;
+    padding-left: 109px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    color: #ffffff;
+}
+
+.cases-block-text {
+    width: 418px;
+    padding-left: 35px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.cases-link {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    color: #533738;
+    text-decoration: none;
+}
+
+/* 2.3 Team */
+
+.team {
+    margin-top: 65px;
+    color: #533738;
+    background-color: #E2C4BA;
+}
+
+.team-tittle {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+        text-transform: uppercase;
+}
+.team-member {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+/* 2.4 Stages */
+
+.stages {
+    margin-top: 0px;
+    color: #533738;
+    background-color: #E2C4BA;
+}
+
+.stages-tittle {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.stages-elements {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.stages-elements li {
+    display: inline;
+}
+
+/* 2.5 Reviews */
+
+.reviews {
+    margin-top: 65px;
+    color: #533738;
+    background-color: #E5E5E5;
+}
+
+.rewies-tittle {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.rewies-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.rewies-author {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;   
+}
+
+/* 2.6 Form */
+
+.form {
+    margin-top: 65px;
+    color: #ffffff;
+    background-color: #8D7370;
+}
+
+/* 3. Footer */
+
+.page-footer {
+    color: #533738;
+    background-color: #E5E5E5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.page-footer li a {
+    text-decoration: none;
+    color: #533738;
 }
