@@ -39,9 +39,12 @@ img {
 max-width: 100%;
 height: auto;
 }
+
 /* 1.Header*/
 
-.header-main {
+.page-header {
+    display: grid;
+    grid-template-columns: 91px 843px 145px;
     width: 1400px;
     height: 715px;
     background-color: #C8BEB2;
@@ -52,20 +55,15 @@ height: auto;
 }
 /* 1.1 Menu */
 
-.header-menu {
-    display: flex;
-    padding-left: 98px;
-    padding-top: 36px;
+.logo {
 
 }
 
-.header-logo {
-    display: flex;
+.page-nav {
+    display:flex
 }
 
-.header-nav {
-    display: flex;
-    margin-left: 89px;
+.nav-links {
 
 }
 
