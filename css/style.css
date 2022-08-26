@@ -15,12 +15,9 @@
 }
 
 html {
-box-sizing: border-box;
 font-size: 16px;
-}
-
-*, *:before, *:after {
-box-sizing: inherit;
+margin: 0;
+padding: 0;
 }
 
 body {
@@ -33,6 +30,8 @@ background-color: #EFE6E4;
 
 ol, ul {
 list-style: none;
+margin: 0;
+padding: 0;
 }
 
 img {
@@ -40,37 +39,51 @@ max-width: 100%;
 height: auto;
 }
 
-/* 1.Header*/
+/* 1.Header* In Progress*/
 
 .page-header {
     display: grid;
-    grid-template-columns: 91px 843px 145px;
-    width: 1400px;
-    height: 715px;
+    grid-template-columns: 182px 472px 746px;
+    grid-template-areas: "logo nav nav"
+                         "header header header";
     background-color: #C8BEB2;
     background: url(../pic/header-bg.png) no-repeat;
     background-size: 1400px;
     color: #533738;
+    width: 1400px;
+    height: 715px;
+    margin-bottom: 65px;
     
 }
-/* 1.1 Menu */
+/* 1.1 Menu ДОБАВИТЬ ХОВЕРЫ НА ССЫЛКИ */
 
 .logo {
-
+    grid-area: logo;
+    margin-left: 100px;
+    margin-top: 38px;
 }
 
 .page-nav {
-    display:flex
+    display: flex;
+    grid-area: nav;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 38px;
 }
 
 .nav-links {
-
+    display: flex;
+    gap: 26px;
 }
 
-.header-nav li a {
+.phone {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
     display:block;
     margin:0;
-    padding-right: 26px;
     text-decoration: none;
     color: #533738;
     font-size: 16px;
@@ -79,7 +92,6 @@ height: auto;
 }
 
 .phone a {
-    margin-left: 34px;
     text-decoration: none;
     color: #533738;
     font-size: 16px;
@@ -91,11 +103,15 @@ height: auto;
 /* 1.2 Header content */
 
 .header-content {
-margin-top: 91px;
-margin-left: 182px;
-width: 536px;
-height: 395px;
+display: flex;
+flex-direction: column;
+grid-area: header;
 color: #533738;
+margin-left: 182px;
+margin-bottom: 168px;
+margin-top: 91px;
+width: 472px;
+
 }
 
 .header-tittle{
@@ -108,6 +124,7 @@ color: #533738;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    width: 434px;
 }
 
 .header-btn {
@@ -129,7 +146,6 @@ color: #533738;
 /* 2.1 About */
 
 .about {
-    margin-top: 65px;
     color: #533738;
 }
 
@@ -138,12 +154,30 @@ color: #533738;
     font-weight: 400;
     line-height: 50px;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 63px;
+    margin-bottom: 21px;
 }
 
 .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 528px;
+
+}
+
+.text {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .about-aside {
