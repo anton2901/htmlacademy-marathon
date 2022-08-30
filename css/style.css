@@ -202,6 +202,7 @@ width: 472px;
 /* 2.2 Cases*/
 
 .cases {
+    margin-bottom: 65px;
     color: #533738;
 }
 
@@ -214,6 +215,7 @@ width: 472px;
 }
 
 .cases-blocks {
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: 488px 184px 488px;
     grid-template-areas: "block-1 block-wide-1 block-wide-1"
@@ -265,9 +267,11 @@ width: 472px;
     grid-area: block-narrow;
 }
 
-
-
 .cases-link {
+    margin-top: 0px;
+    margin-right: 533px;
+    margin-bottom: 0px;
+    margin-left: 533px;
     font-size: 30px;
     font-weight: 500;
     line-height: 37px;
@@ -278,7 +282,6 @@ width: 472px;
 /* 2.3 Team */
 
 .team {
-    margin-top: 65px;
     color: #533738;
     background-color: #E2C4BA;
 }
