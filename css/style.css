@@ -114,7 +114,7 @@ width: 472px;
 
 }
 
-.header-tittle{
+.header-title{
     font-size: 50px;
     font-weight: 400;
     line-height: 62px;
@@ -150,7 +150,7 @@ width: 472px;
     margin-bottom: 65px;
 }
 
-.about-tittle {
+.about-title {
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
@@ -206,7 +206,7 @@ width: 472px;
     color: #533738;
 }
 
-.cases-tittle {
+.cases-title {
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
@@ -286,20 +286,24 @@ width: 472px;
     background-color: #E2C4BA;
 }
 
-.team-tittle {
+.team-title {
         font-size: 40px;
         font-weight: 400;
         line-height: 50px;
         text-transform: uppercase;
+        text-align: center;
 }
 .team-member {
+    display: flex;
+    flex-direction: column;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
+    width: 320px;
 }
 
-/* 2.4 Stages */
+/* 2.5 Stages */
 
 .stages {
     margin-top: 0px;
@@ -328,26 +332,26 @@ width: 472px;
 /* 2.5 Reviews */
 
 .reviews {
-    margin-top: 65px;
     color: #533738;
     background-color: #E5E5E5;
 }
 
-.rewies-tittle {
+.reviews-title {
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.rewies-text {
+.reviews-text {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
 }
 
-.rewies-author {
+.reviews-author {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
